@@ -34,7 +34,7 @@
         	  	var todoList = [{description: 'Do the Dishes', done: false, id: _.uniqueId()}, {description: 'Read a Book', done: true, id: _.uniqueId()}, {description: 'Work Out', done: false, id: _.uniqueId()}]				
             	todoList.remove([0])
             	expect(todoList.remove([0])).to.equal(true);
-        });
+        	});
         });
     });
 })();
